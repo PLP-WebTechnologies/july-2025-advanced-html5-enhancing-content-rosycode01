@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced HTML5 Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Learning HTML5: Lists, Tables, Media & Forms</h1>
+      <p>
+        This page demonstrates advanced HTML5 features including content
+        structuring and native form validation.
+      </p>
+    </header>
+
+    <main>
+      <!-- Section 1: Lists -->
+      <section>
+        <h2>Why Learn Web Development?</h2>
+        <ul>
+          <li>High Demand Skills</li>
+          <li>Remote Work Opportunities</li>
+          <li>Creativity and Problem Solving</li>
+        </ul>
+
+        <h3>Steps to Becoming a Web Developer</h3>
+        <ol>
+          <li>Learn HTML & CSS</li>
+          <li>Master JavaScript</li>
+          <li>Explore Frontend & Backend Tools</li>
+          <li>Build Real Projects</li>
+        </ol>
+      </section>
+
+      <!-- Section 2: Table -->
+      <section>
+        <h2>Weekly Study Plan</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Topic</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>HTML5</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>CSS3</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>JavaScript</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>Projects</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Section 3: Media -->
+      <section>
+        <h2>Embedded Media</h2>
+
+        <figure>
+          <img src="brown.jpg" alt="Placeholder Image" width="400" />
+          <figcaption>Chicken image</figcaption>
+        </figure>
+
+        <h3>Introduction Video</h3>
+        <video width="320" height="240" controls>
+          <source src="intro.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <!-- Section 4: HTML5 Form -->
+      <section>
+        <h2>Sign Up Form</h2>
+        <form action="#" method="post" autocomplete="on">
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              minlength="3"
+              placeholder="Enter full name"
+            /><br /><br />
+
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="example@domain.com"
+            /><br /><br />
+
+            <label for="phone">Phone Number:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{10}"
+              placeholder="e.g. 0712345678"
+            /><br /><br />
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required /><br /><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Account Details</legend>
+
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+              pattern="^[a-zA-Z0-9_]{4,12}$"
+              placeholder="4–12 characters"
+            /><br /><br />
+
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              minlength="6"
+              placeholder="Minimum 6 characters"
+            /><br /><br />
+
+            <label for="confirm">Confirm Password:</label>
+            <input
+              type="password"
+              id="confirm"
+              name="confirm"
+              required
+              minlength="6"
+              placeholder="Retype password"
+            /><br /><br />
+
+            <label for="country">Country:</label>
+            <input
+              type="text"
+              id="country"
+              name="country"
+              value="Kenya"
+              readonly
+            /><br /><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferences</legend>
+
+            <label for="contact">Preferred Contact Method:</label><br />
+            <input
+              type="radio"
+              id="email-contact"
+              name="contact"
+              value="email"
+              required
+            />
+            <label for="email-contact">Email</label>
+
+            <input
+              type="radio"
+              id="phone-contact"
+              name="contact"
+              value="phone"
+            />
+            <label for="phone-contact">Phone</label><br /><br />
+
+            <label for="interests">Areas of Interest:</label><br />
+            <input
+              type="checkbox"
+              id="frontend"
+              name="interests"
+              value="frontend"
+            />
+            <label for="frontend">Frontend</label>
+
+            <input
+              type="checkbox"
+              id="backend"
+              name="interests"
+              value="backend"
+            />
+            <label for="backend">Backend</label>
+
+            <input type="checkbox" id="ai" name="interests" value="ai" />
+            <label for="ai">AI</label><br /><br />
+          </fieldset>
+
+          <input type="submit" value="Submit Form" />
+          <input type="reset" value="Reset" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Copyright Rose Wanjiru</p>
+    </footer>
+  </body>
+</html>
+g
