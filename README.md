@@ -1,7 +1,7 @@
  Enhanced HTML5 Content & Form Assignment
  Overview
 
-This project demonstrates the use of advanced HTML5 content elements and form-building techniques. It is part of the **PLP Web Technologies Classroom – July 2025** assignment, focused on structuring content using lists, tables, media, and creating a user-friendly, accessible form with built-in validation.
+This project demonstrates the use of advanced HTML5 content elements and form-building techniques. Its focused on structuring content using lists, tables, media, and creating a user-friendly, accessible form with built-in validation.
 
 Features
 
